@@ -1,0 +1,119 @@
+/* We should use %'s not px's */
+
+body {
+  background-color: #5FB8B2;
+  margin: 0;
+  font-family: 'Oxygen', sans-serif;
+  /* font-family: Courier; */
+
+}
+
+.topnav {
+  margin-left: 900px;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.topnav a:hover {
+  color: #35524A;
+}
+
+.topnav a.active {
+
+  color: #F3FFBD;
+}
+h5{
+  margin-left: 35%;
+  margin-top: 0px;
+    color: #DBF1EE;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 90px;
+}
+h1 {
+  position: absolute;
+  font-size: 90px;
+  margin-left: 550px;
+  margin-top: 0px;
+  color: #DBF1EE;
+  font-family: 'Oxygen', sans-serif;
+}
+h4{
+
+  color: #Dbf1ee
+}
+p1 {
+  font-size: 30px;
+  color: #FF954C;
+  margin-left: 590px;
+  position: absolute;
+  top: 50%;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#pPTmaindiv {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
+}
+h3{
+  color:#Dbf1ee
+}
+h2 {
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
+  color:#Dbf1ee
+}
+
+img {
+  width: 100%;
+  max-height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main{
+font-family: 'Oxygen', sans-serif;
+}
+.row {
+  display: flex;
+}
+
+.Left {
+  flex: 1;
+  width: 50%;
+  float: left;
+}
+
+.Right {
+  flex: 1;
+  width: 50%;
+  float: right;
+}
+
+.normalDiv {
+  clear: both;
+}
+
+#beghouse {
+  position: absolute;
+  top: 10%;
+}
+
+#question{
+  font-size: 20px;
+  color: #DBF1EE;}
+
+#chatbot{
+  font-size: 20px;
+  color: #DBF1EE;}
